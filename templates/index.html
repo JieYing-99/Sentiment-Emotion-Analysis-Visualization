@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% include 'navbar.html' %}
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h4>Language Proportion of Tweets</h4>
+                {{ div_language_pie_chart|safe }}
+            </div>
+            <div class="col">
+                <h4>Sentiment Proportion of Tweets</h4>
+                {{ div_sentiment_pie_chart|safe }}
+            </div>
+        </div>
+        <hr>
+
+        <h4 style="width: 100%;">Number of Tweets, Replies, Likes, Retweets and Videos over Time</h4>
+        <div class="row mt-3">
+            {{ div_frequency_line_graph|safe }}
+        </div>
+        <hr>
+
+        <h4 style="width: 100%;">Number of Tweets, Replies, Likes, Retweets and Videos over Time</h4>
+        <div class="row mt-3">
+            {{ div_test_frequency_line_graph|safe }}
+        </div>
+        <hr>
+
+        <h4>Sentiment over Time</h4>
+        <div class="row mt-3">
+            {{ div_sentiment_line_graph|safe }}
+        </div>
+        <hr>
+
+        <h4>Sentiment by Day of Week</h4>
+        <div class="row mt-3">
+            {{ div_sentiment_by_day_bar_chart|safe }}
+        </div>
+        <hr>
+
+        <h4>Word Clouds</h4>
+        <div class="row mt-3">
+            <div class="tab">
+                <button id="englishWCButton" class="tablinks" onclick="openInfo(event, 'englishWC')">English</button>
+                <button id="chineseWCButton" class="tablinks" onclick="openInfo(event, 'chineseWC')">Chinese</button>
+                <button id="malayWCButton" class="tablinks" onclick="openInfo(event, 'malayWC')">Malay</button>
+            </div>
+        </div>
+        <div class="row mt-3"> 
+            <div id="englishWC" class="tabcontent">
+                <div class="row mt-3">
+                    <img src="{{ img_data_eng }}" >
+                </div>
+            </div>
+            <div id="chineseWC" class="tabcontent">
+                <div class="row mt-3">
+                    <img src="{{ img_data_chi }}" >
+                </div>
+            </div>
+            <div id="malayWC" class="tabcontent">
+                <div class="row mt-3">
+                    <img src="{{ img_data_mal }}" >
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- <h4>N-gram Frequency Ranking</h4>
+        <div class="row mt-3">
+            <div class="col">
+                {{ div_ngram_frequency_bar_chart|safe }}
+            </div>
+        </div>
+        <hr> -->
+
+        <h4>Emotions Frequency</h4>
+        <div class="row mt-3">
+            <div class="col">
+                {{ div_emotion_frequency_bar_chart|safe }}
+            </div>
+        </div>
+        <hr>
+
+        <h4>Emotions over Time</h4>
+        <div class="row mt-3">
+            {{ div_emotion_over_time_bar_chart|safe }}
+        </div>
+        <hr>
+    </div>
+
+    <script>
+        document.getElementsByClassName('tablinks')[0].click()
+        function openInfo(evt, infoType) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(infoType).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+
+    {{ script_frequency_line_graph|safe }}
+    {{ script_test_frequency_line_graph|safe }}
+    {{ script_sentiment_line_graph|safe }}
+    <!-- {{ script_ngram_frequency_bar_chart|safe }} -->
+    {{ script_language_pie_chart|safe }}
+    {{ script_sentiment_pie_chart|safe }}
+    {{ script_emotion_frequency_bar_chart|safe }}
+    {{ script_sentiment_by_day_bar_chart|safe }}
+    {{ script_emotion_over_time_bar_chart|safe }}
+
+{% endblock %}
