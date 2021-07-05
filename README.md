@@ -75,7 +75,7 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 </div>
 <div align="center">
   <p style="text-align:center;">Emotion over Time Line Bar Chart</p>
-  <img src="screenshots/emotion_over_time_line_bar_chart.png" alt="Emotion over Time Line Bar Chart">
+  <img src="screenshots/emotion_over_time_line_bar_chart.PNG" alt="Emotion over Time Line Bar Chart">
 </div>
 
 
