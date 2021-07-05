@@ -61,10 +61,6 @@ This project was done in a group of 4 and I was responsible for visualizing the 
   <p style="text-align:center;">English Word Cloud</p>
   <img src="screenshots/english_word_cloud.png" alt="English Word Cloud">
 </div><br>
-#<div align="center">
-#  <p style="text-align:center;">English Unigram Ranking Bar Chart</p>
-#  <img src="screenshots/english_unigram_ranking_bar_chart.png" alt="English Unigram Ranking Bar Chart">
-#</div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment by Day Stacked Bar Chart</p>
   <img src="screenshots/sentiment_by_day_stacked_bar_chart.PNG" alt="Sentiment by Day Stacked Bar Chart">
