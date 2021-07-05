@@ -17,10 +17,10 @@ analysis and visualizing the result.
       <a href="#demo">Demo</a>
     </li>
     <li>
-      <a href="#prerequisite">Prerequisite</a>
+      <a href="#setup">Installation</a>
     </li>
     <li>
-      <a href="#setup">Installation</a>
+      <a href="#run">Running the Project</a>
     </li>
   </ol>
 </details>
@@ -82,18 +82,28 @@ This project was done in a group of 4 and I was responsible for visualizing the 
   <img src="screenshots/emotion_over_time_line_bar_chart.PNG" alt="Emotion over Time Line Bar Chart">
 </div>
 
-
-<h3 id="prerequisite">Prerequisite</h3>
-<ul>
-    <li>
-      Requirements.txt
-    </li>
-</ul>
-
 <h3 id="setup">Installation</h3>
-<ul>
-    <li>
-      flask app.py
-    </li>
-</ul>
-<i>The complete source code is not available yet.</i>
+<ol>
+  <li>
+     Download the project code.
+  </li> 
+  <li>
+     At your Anaconda Prompt, create a virtual environment and enter this command: pip install -r requirements.txt.
+  </li> 
+</ol>
+<h3 id="run">Running the Project</h3>
+<ol>
+  <li>
+    Open the app.py file, at the last line of the file, 
+    replace the host ip address with your own ip address.
+  </li>
+  <li>
+     At your Anaconda Prompt, activate your virtual environment and change the directory to the project folder.
+  </li>
+  <li>
+     Enter the following commands:<br>
+     set FLASK_APP=app.py <br>
+     set FLASK_ENV=development <br>
+     flask run <br>
+  </li>
+</ol>
