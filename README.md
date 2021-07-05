@@ -2,8 +2,7 @@
   <h3 align="center">Sentiment and Emotion Analysis Visualization</h3>
 
   <p align="center">
-    This project involves crawling English, Malay and Chinese tweets related to the topic of “Online Learning” from Twitter, cleaning the crawled data, performing sentiment and emotion
-analysis and visualizing the result.
+    This project involves crawling English, Malay and Chinese tweets related to the topic of “Online Learning” from Twitter, cleaning the crawled data, performing sentiment and emotion analysis and lastly, visualizing the result.
   </p>
 </p>
 
@@ -72,37 +71,25 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 <div align="center">
   <p style="text-align:center;">Emotion Frequency Bar Chart</p>
   <img src="screenshots/emotion_frequency_bar_chart.PNG" alt="Emotion Frequency Bar Chart">
-</div>
+</div><br>
 <div align="center">
   <p style="text-align:center;">Emotion over Time Line Bar Chart</p>
   <img src="screenshots/emotion_over_time_line_bar_chart.PNG" alt="Emotion over Time Line Bar Chart">
 </div>
 
 <h3 id="setup">Installation</h3>
-<ol>
-  <li>
-     Download the project code.
-  </li> 
-  <li>
-     At your Anaconda Prompt, create a virtual environment and enter this command: pip install -r requirements.txt.
-  </li> 
-</ol>
+
+1. Download the Visualization folder.
+2. At your Anaconda Prompt, create a virtual environment and enter the following command: <br>
+   * `pip install -r requirements.md` <br>
+
 <h3 id="run">Running the Project</h3>
-<ol>
-  <li>
-    Open the app.py file, at the last line of the file, 
-    replace the host ip address with your own ip address.
-  </li>
-  <li>
-     At your Anaconda Prompt, activate your virtual environment and change the directory to the project folder.
-  </li>
-  <li>
-     Enter the following commands:<br>
-     set FLASK_APP=app.py <br>
-     set FLASK_ENV=development <br>
-     flask run <br>
-  </li>
-  <li>
-     Access the webpage at localhost:5000 in your browser.
-  </li>
-</ol>
+
+1. Open the app.py file, at the last line of the file, replace the host ip address with your own ip address.
+2. At your Anaconda Prompt, activate your virtual environment and change the directory to the project folder.
+3. Enter the following commands: <br>
+   * `set FLASK_APP=app.py` <br>
+   * `set FLASK_ENV=development` <br>
+   * `flask run` <br>
+4. Access the webpage at localhost:5000 in your browser.
+
