@@ -106,4 +106,7 @@ This project was done in a group of 4 and I was responsible for visualizing the 
      set FLASK_ENV=development <br>
      flask run <br>
   </li>
+  <li>
+     Access the webpage at localhost:5000 in your browser.
+  </li>
 </ol>
