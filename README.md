@@ -67,7 +67,7 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 </div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment by Day Stacked Bar Chart</p>
-  <img src="screenshots/sentiment_by_day_stacked_bar_chart.png" alt="Sentiment by Day Stacked Bar Chart">
+  <img src="screenshots/sentiment_by_day_stacked_bar_chart.png" alt="Sentiment by Day Stacked Bar Chart" width="700" height="600">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment over Time Line Graph</p>
