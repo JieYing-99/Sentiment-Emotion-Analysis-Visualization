@@ -47,7 +47,11 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 
 <div align="center">
   <p style="text-align:center;">Language Proportion Pie Chart</p>
-  <img src="screenshots/language_proportion_pie_chart.png" alt="Language Proportion Pie Chart">
+  <img src="screenshots/language_proportion_pie_chart.png" alt="Language Proportion Pie Chart" width="500" height="400">
+</div><br>
+<div align="center">
+  <p style="text-align:center;">Sentiment Proportion Pie Chart</p>
+  <img src="screenshots/sentiment_proportion_pie_chart.png" alt="Sentiment Proportion Pie Chart" width="500" height="400">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Frequency over Time Line Graph</p>
@@ -71,7 +75,7 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 </div><br>
 <div align="center">
   <p style="text-align:center;">Emotion Frequency Bar Chart</p>
-  <img src="screenshots/emotion_frequency_bar_chart.png" alt="Emotion Frequency Bar Chart">
+  <img src="screenshots/emotion_frequency_bar_chart.png" alt="Emotion Frequency Bar Chart" width="600" height="500">
 </div>
 <div align="center">
   <p style="text-align:center;">Emotion over Time Line Bar Chart</p>
