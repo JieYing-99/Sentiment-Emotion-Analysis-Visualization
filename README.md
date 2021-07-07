@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Sentiment and Emotion Analysis Visualization</h3>
+  <h2 align="center">Sentiment and Emotion Analysis Visualization</h2>
 
   <p align="center">
     This project involves crawling English, Malay and Chinese tweets related to the topic of “Online Learning” from Twitter, cleaning the crawled data, performing sentiment and emotion analysis and lastly, visualizing the result.
