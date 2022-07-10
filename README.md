@@ -80,16 +80,20 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 <h3 id="setup">Installation</h3>
 
 1. Download the Visualization folder.
-2. At your Anaconda Prompt, create a virtual environment and enter the following command: <br>
-   * `pip install -r requirements.md` <br>
+2. At your Anaconda Prompt, create a virtual environment and run the following command: <br>
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 <h3 id="run">Running the Project</h3>
 
 1. Open the app.py file, at the last line of the file, replace the host ip address with your own ip address.
 2. At your Anaconda Prompt, activate your virtual environment and change the directory to the project folder.
-3. Enter the following commands: <br>
-   * `set FLASK_APP=app.py` <br>
-   * `set FLASK_ENV=development` <br>
-   * `flask run` <br>
+3. Run the following commands:
+   ```sh
+   set FLASK_APP=app.py
+   set FLASK_ENV=development
+   flask run
+   ```
 4. Access the webpage at localhost:5000 in your browser.
 
