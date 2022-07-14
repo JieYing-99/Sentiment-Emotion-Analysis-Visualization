@@ -12,9 +12,12 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li>
-      <a href="#demo">Demo</a>
-    </li>
+      <ul>
+        <a href="#built">Built with</a>
+      </ul>
+      <ul>
+        <a href="#viz">Sample Visualizations</a>
+      </ul>
     <li>
       <a href="#setup">Installation</a>
     </li>
@@ -32,8 +35,8 @@ As a result, teaching and learning activities are shifted online. As students, w
 Therefore, this project is carried out to analyse the sentiments and emotions towards online learning on Twitter.
 This project was done in a group of 4 and I was responsible for visualizing the result of the sentiment and emotion analysis.
 
-<b>This project was built with:</b>
-<br>
+<h4 id="built">Built with</h4>
+
 * [HappyBase](https://happybase.readthedocs.io/en/latest/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [Bootstrap](https://getbootstrap.com/)
@@ -42,39 +45,39 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 * [Wordcloud](https://amueller.github.io/word_cloud/)
 
 
-<h3 id="demo">Demo</h3>
+<h4 id="viz">Sample Visualizations</h4>
 
 <div align="center">
   <p style="text-align:center;">Language Proportion Pie Chart</p>
-  <img src="screenshots/language_proportion_pie_chart.PNG" alt="Language Proportion Pie Chart">
+  <img src="screenshots/language_proportion_pie_chart.PNG" alt="Language Proportion Pie Chart" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment Proportion Pie Chart</p>
-  <img src="screenshots/sentiment_proportion_pie_chart.PNG" alt="Sentiment Proportion Pie Chart">
+  <img src="screenshots/sentiment_proportion_pie_chart.PNG" alt="Sentiment Proportion Pie Chart" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Frequency over Time Line Graph</p>
-  <img src="screenshots/frequency_over_time_line_graph.png" alt="Frequency over Time Line Graph">
+  <img src="screenshots/frequency_over_time_line_graph.png" alt="Frequency over Time Line Graph" width="50%">
 </div><br><br>
 <div align="center">
   <p style="text-align:center;">English Word Cloud</p>
-  <img src="screenshots/english_word_cloud.png" alt="English Word Cloud">
+  <img src="screenshots/english_word_cloud.png" alt="English Word Cloud" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment by Day Stacked Bar Chart</p>
-  <img src="screenshots/sentiment_by_day_stacked_bar_chart.PNG" alt="Sentiment by Day Stacked Bar Chart">
+  <img src="screenshots/sentiment_by_day_stacked_bar_chart.PNG" alt="Sentiment by Day Stacked Bar Chart" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Sentiment over Time Line Graph</p>
-  <img src="screenshots/sentiment_over_time_line_graph.png" alt="Sentiment over Time Line Graph">
+  <img src="screenshots/sentiment_over_time_line_graph.png" alt="Sentiment over Time Line Graph" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Emotion Frequency Bar Chart</p>
-  <img src="screenshots/emotion_frequency_bar_chart.PNG" alt="Emotion Frequency Bar Chart">
+  <img src="screenshots/emotion_frequency_bar_chart.PNG" alt="Emotion Frequency Bar Chart" width="50%">
 </div><br>
 <div align="center">
   <p style="text-align:center;">Emotion over Time Line Bar Chart</p>
-  <img src="screenshots/emotion_over_time_line_bar_chart.PNG" alt="Emotion over Time Line Bar Chart">
+  <img src="screenshots/emotion_over_time_line_bar_chart.PNG" alt="Emotion over Time Line Bar Chart" width="50%">
 </div>
 
 <h3 id="setup">Installation</h3>
@@ -95,5 +98,5 @@ This project was done in a group of 4 and I was responsible for visualizing the 
    set FLASK_ENV=development
    flask run
    ```
-4. Access the webpage at localhost:5000 in your browser.
+4. Access the webpage at [localhost:5000](http://localhost:5000) in your browser.
 
