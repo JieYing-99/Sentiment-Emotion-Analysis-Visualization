@@ -83,15 +83,15 @@ This project was done in a group of 4 and I was responsible for visualizing the 
 <h3 id="setup">Installation</h3>
 
 1. Download the Visualization folder.
-2. At your Anaconda Prompt, create a virtual environment and run the following command: <br>
+2. Create a virtual environment and run the following command: <br>
    ```sh
    pip install -r requirements.txt
    ```
 
 <h3 id="run">Running the Project</h3>
 
-1. Open the app.py file, at the last line of the file, replace the host ip address with your own ip address.
-2. At your Anaconda Prompt, activate your virtual environment and change the directory to the project folder.
+1. Open app.py, go to the last line of the file, replace the host ip address with your own ip address.
+2. Activate your virtual environment and change the directory to the project folder.
 3. Run the following commands:
    ```sh
    set FLASK_APP=app.py
